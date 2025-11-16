@@ -1,0 +1,46 @@
+p{
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /*Apila las secciones verticalmente wi :b*/
+    align-items: center; /*Centra las secciones horizontalmente*/
+}
+
+.page-section {
+    width: 210mm; /*Ancho de una hoja A4*/
+    min-height: 297mm; /*Alto de una hoja A4 y min-height para que crezca si hay mas cosas*/
+
+    margin: 30px auto;
+    padding: 20px;
+
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /*efecto de elevacion*/
+    box-sizing: border-box; /*asegura que el padding no aumente el ancho total*/
+}
+
+.titulo-centrado {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.cafe-calido {
+    background-color: #A56F42;
+}
+
+.beige-estandar {
+    background-color: #EED9C4;
+}
+
+.azul-pastel {
+    background-color: #ADD8E6;
+}

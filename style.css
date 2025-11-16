@@ -1,5 +1,6 @@
 p{
     font-size: 1.5rem;
+    line-height: 2;
 }
 
 h1 {
@@ -43,4 +44,65 @@ body {
 
 .azul-pastel {
     background-color: #ADD8E6;
+}
+
+.imagen-left {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.imagen-completa {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.imagen-flex {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.contenedor-flex {
+  display: flex;
+  align-items: flex-start; /* Para alinear el texto arriba */
+  gap: 15px;              /* Espacio entre imagen y texto */
+  width: 95%;             /* Más ancho para mejor fluidez de texto */
+  margin-left: auto; 
+  margin-right: 10%;
+}
+
+.texto-flex {
+  flex-grow: 1; /* Ocupa el espacio restante */
+}
+
+.texto-flex p {
+  text-align: left;       /* Asegura la alineación a la izquierda */
+  margin: 0;              /* Elimina el margen por defecto */
+  line-height: 2;       /* ¡AQUÍ ESTÁ LA CLAVE PARA UNIR LAS LÍNEAS! */
+
+}
+
+.contenedor-flex2 {
+  display: flex;
+  align-items: flex-start; /* Para alinear el texto arriba */
+  gap: 15px;              /* Espacio entre imagen y texto */
+  width: 95%;             /* Más ancho para mejor fluidez de texto */
+  margin-left: 5%; 
+  margin-right: auto;
+  flex-direction: row-reverse;
+}
+
+.texto-flex2 {
+  flex-grow: 1; /* Ocupa el espacio restante */
+}
+
+.texto-flex2 p {
+  text-align: left;       /* Asegura la alineación a la izquierda */
+  margin: 0;              /* Elimina el margen por defecto */
+  line-height: 2;       /* ¡AQUÍ ESTÁ LA CLAVE PARA UNIR LAS LÍNEAS! */
+
 }
